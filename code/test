@@ -2,3 +2,4 @@
 cd /home/compu/code/valencia_college/step_3/code
 printf "Current Working Directory: %s\n" "${PWD}"
 ./bash/start
+tail -f /var/log/nginx/error.log
