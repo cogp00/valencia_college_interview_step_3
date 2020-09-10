@@ -1,3 +1,7 @@
+# Run nginx Server
+http://nginx.org/en/docs/beginners_guide.html
+
+
 # Interpreted Request
 **Final Development Task**
 **Deadline:** Sunday, September 13, 11:59 PM
