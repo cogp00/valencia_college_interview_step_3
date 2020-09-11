@@ -1,5 +1,6 @@
 # Run nginx Server
 http://nginx.org/en/docs/beginners_guide.html
+https://developer.mozilla.org/en-US/docs/Learn/Forms/Sending_forms_through_JavaScript
 
 
 # Interpreted Request
