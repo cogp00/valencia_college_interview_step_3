@@ -9,5 +9,63 @@
         <p>For all orders and inquiries please call
             <em>555-3344</em></p>
         <script src="js/add-content.js"></script>
+        <form action="http://www.example.com/review.php" method="post">
+            <label>
+                Employee ID:
+                <input type="text" name="employee_id" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                First Name:
+                <input type="text" name="first_name" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Last Name:
+                <input type="text" name="last_name" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Address Line 1:
+                <input type="text" name="addr_line_1" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Address Line 2:
+                <input type="text" name="addr_line_2" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                City:
+                <input type="text" name="city" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                State:
+                <input type="text" name="state" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Zip Code:
+                <input type="text" name="zip_code" size="30" maxlength="100">
+            </label>
+            <br/>
+            <label>
+                Phone Number:
+                <input type="text" name="phone_number" size="30" 
+                       maxlength="10"
+                >
+            </label>
+            <br/>
+            <label>
+                Phone Type:
+                <select name="phone_type" id="phone-type">
+                    <option value="Home">
+                    <option value="Mobile">
+                </select>
+            </label>
+            </br>
+            <input type="submit" value="Submit"/>
+        </form>
     </body>
 </html>
